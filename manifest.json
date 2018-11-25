@@ -1,0 +1,10 @@
+{
+  "name": "関連する検索キーワードを隠してくれるやつ",
+  "description": "Google検索画面にて、特定のワードが含まれている「関連する検索キーワード」を隠してくれます。",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_scripts": [{
+    "matches": ["https://www.google.co.jp/search*"],
+    "js": ["content_script.js"]
+  }]
+  }
