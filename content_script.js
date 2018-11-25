@@ -6,6 +6,5 @@ while (i < relatedWords.length) {
     if (pattern.test(relatedWords[i].innerText)) {
         relatedWords[i].style.display = "none";
     }
-    console.log(relatedWords[i].innerText);
     i++;
 }
